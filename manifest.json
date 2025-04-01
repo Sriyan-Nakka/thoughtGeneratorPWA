@@ -1,0 +1,22 @@
+{
+  "name": "Random Thought Generator.",
+  "description": "Generate thoughts to share with your friends!",
+  "version": "2.3",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/favicon.png",
+      "48": "images/favicon.png",
+      "128": "images/favicon.png"
+    }
+  },
+  "icons": {
+    "100": "images/favicon.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://thoughts-base-default-rtdb.firebaseio.com/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
