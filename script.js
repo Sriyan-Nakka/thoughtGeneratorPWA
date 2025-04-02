@@ -1,3 +1,16 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("sw.js")
+    .then((registration) => {
+      console.log("SW registered");
+      console.log(registration);
+    })
+    .catch((error) => {
+      console.log("SW Registration failed");
+      console.log(error);
+    });
+}
+
 function getThought() {
   const randNum = Math.floor(Math.random() * 75) + 1;
   const thoughtNum = `thought${randNum}`;

@@ -1,0 +1,17 @@
+{
+  "name": "Random Thought Generator",
+  "short_name": "Thought Generator",
+  "description": "Generate thoughts to share with your friends!",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "type": "image/png",
+      "sizes": "16x16, 32x32, 48x48, 64x64, 96x96, 128x128, 192x192, 256x256, 384x384, 512x512"
+    }
+  ]
+}
